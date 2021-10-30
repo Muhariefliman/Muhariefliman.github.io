@@ -83,7 +83,6 @@ body{
     margin-top: 75px;
 }
 
-
   @keyframes typing {
     from {
       width: 0
@@ -95,6 +94,32 @@ body{
       border-color: transparent
     }
   }
+
+.img-carousel-emp img{
+    width: 450px;
+    height: 350px;
+}
+
+.logo-click-here img{
+    width: 50px;
+    height: 50px;
+}
+
+#Projects a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#Projects a:hover{
+    color: green;
+    transition: 0.2s;
+}
+
+#Contacts img{
+    width: 50px;
+    height: 50px;
+}
 
 @media only screen and (max-width: 426px) {
     .top-bottom{

@@ -8,27 +8,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zen Antique|Playfair Display|Titillium Web">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="text-navbar fixed-top">
         <ul class="nav justify-content-center navabar-dark" style="background-color: #171717;">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#Projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact</a>
+              <a class="nav-link" href="#Contacts">Contact</a>
             </li>
           </ul>
     </div>
@@ -56,68 +58,59 @@
         
     </div>
 
-    <div class="container mid-text" id="about">
-        <h1 class="text-center animate__animated animate__bounce">About Me</h1>
+    <div class="container mid-text" id="about" data-aos="fade-down">
+        <h1 class="text-center">About Me</h1>
         <div class="row align-items-center text-center width-text justify-content-center">
             <p class="text-paragraph">
                 I am From Indonesia, Now I am currently pursuing bachelor's degree and master's degree focused on Computer Science from BINUS University. For me, experience is number one. I also eager to learn new things and grow profesionally. I am Interested in Web and Mobile Development. I am currently learning Laravel Frameworks, Flutter And React Js.
             </p>
         </div>
-        <h2 class="text-center" id="skills">Skills</h2>
-        <div class="row align-items-center text-center width-text justify-content-center top-top">
-            <div class="col img-skills">
+        <h2 class="text-center" id="skills">Skills and Software</h2>
+        <div class="row align-items-center text-center width-text justify-content-center" data-aos="fade-right">
+            <div class="col img-skills top-top">
                 <img src="assets/logo/java-ar21.svg" alt="">
             </div>
-            <div class="col img-skills">
-                <img src="assets/logo/android-official.svg" alt="">
-            </div>
-            <div class="col img-skills javascript-logo">
+            <div class="col img-skills top-top">
                 <img src="assets/logo/javascript-icon.svg" alt="">
             </div>
-            <div class="col img-skills">
+            <div class="col img-skills top-top">
                 <img src="assets/logo/php-icon.svg" alt="">
             </div>
-            <div class="col img-skills">
+            <div class="col img-skills top-top">
                 <img src="assets/logo/python-official.svg" alt="">
             </div>
         </div>
-        <div class="row align-items-center text-center width-text justify-content-center top-top">
-            <div class="col img-skills">
-                <img src="assets/logo/reactjs-icon.svg" alt="">
-            </div>
-            <div class="col img-skills">
+        <div class="row align-items-center text-center width-text justify-content-center">
+            <div class="col img-skills top-top">
+                <img src="assets/logo/laravel-ar21.svg" alt="">
+            </div>    
+            <div class="col img-skills top-top">
                 <img src="assets/logo/w3_html5-icon.svg" alt="">
             </div>
-            <div class="col img-skills">
+            <div class="col img-skills top-top">
                 <img src="assets/logo/w3_css-official.svg" alt="">
             </div>
-            <div class="col img-skills">
-                <img src="assets/logo/laravel-ar21.svg" alt="">
-            </div>
-            <div class="col img-skills">
-                <img src="assets/logo/flutterio-ar21.svg" alt="">
-            </div>
-        </div>
-        <div class="row align-items-center text-center width-text justify-content-center top-top">
-            <div class="col img-skills">
+            <div class="col img-skills top-top">
                 <img src="assets/logo/c-programming-language-seeklogo.com.svg" alt="">
             </div>
-            <div class="col img-skills">
+        </div>
+        <div class="row align-items-center text-center width-text justify-content-center">
+            <div class="col img-skills top-top">
                 <img src="assets/logo/mysql-official.svg" alt="">
             </div>
-            <div class="col img-skills">
-
+            <div class="col img-skills top-top">
+                <img src="assets/logo/visualstudio_code-ar21.svg" alt="">
             </div>
-            <div class="col img-skills">
-
+            <div class="col img-skills top-top">
+                <img src="assets/logo/Microsoft_Office-Logo.wine.svg" alt="">
             </div>
-            <div class="col img-skills">
-
+            <div class="col img-skills top-top">
+                <img src="assets/logo/Eclipse_(software)-Logo.wine.svg" alt="">
             </div>
         </div>
 
         <h2 class="text-center" id="skills">Education</h2>
-        <div class="row align-items-center width-text justify-content-center top-top">
+        <div class="row width-text justify-content-center top-top" data-aos="fade-left">
             <div class="col">
                 <h2>
                     Bina Nusantara University
@@ -132,12 +125,10 @@
                     IPK: 3.59
                 </p>
             </div>
-        </div>
 
-        <div class="row align-items-center width-text justify-content-center top-top">
             <div class="col">
                 <h2>
-                    SMA Santo Bellarminus
+                    SMA Santo Bellarminus Jakarta
                 </h2>
                 <p>
                     Science
@@ -148,9 +139,25 @@
             </div>
         </div>
 
+
         <h2 class="text-center">Experience</h2>
-        <div class="row align-items-center width-text justify-content-center top-top">
-            <div class="col container">
+        <div class="row justify-content-center top-top" data-aos="fade-left">
+            <div class="col">
+                <h2>
+                    Teaching Programming Language
+                </h2>
+                <p>
+                    SMP Bellarminus Jakarta
+                </p>
+                <p>
+                    2021
+                </p>
+                <p>
+                    Teaching Basic Programming To Junior High School at Bellarminus Jakarta
+                </p>
+            </div>
+
+            <div class="col">
                 <h2>
                     IT DIV Training
                 </h2>
@@ -161,12 +168,15 @@
                     September 2020 - January 2021
                 </p>
                 <p>
-                    Learn about Web Development Includes HTML, CSS, Javascript, PHP, ASP.NET, C#, SQL, BM5 Frameworks and Android. There's Several Project I have done. And The Final Project Make Android Apps using API From Binus.
+                    Learn about Web Development Includes PHP, ASP.NET, C#, SQL, BM5 Frameworks and Android.
                 </p>
             </div>
-            <div class="col container">
+        </div>
+        
+        <div class="row justify-content-center top-top" data-aos="fade-left">
+            <div class="col">
                 <h2>
-                    Pre Training Assistant Laboratory
+                    Pre Training NAR
                 </h2>
                 <p>
                     Bina Nusantara University
@@ -178,44 +188,331 @@
                     Learn About C/C++, Java, SQL and Data Structure.
                 </p>
             </div>
+            <div class="col">
+                <h2>
+                    Globalicious Crew
+                </h2>
+                <p>
+                    Bina Nusantara University
+                </p>
+                <p>
+                    August 2019
+                </p>
+                <p>
+                    Campus Tour For A New Students.
+                </p>
+            </div>
+        </div>
+        
+        
+        <div class="row justify-content-center top-top" data-aos="fade-left">
+            <div class="col">
+                <h2>
+                    Helper Fiesta PRJ Expo
+                </h2>
+                <p>
+                    PT. Primafood International
+                </p>
+                <p>
+                    May 2019 - June 2019
+                </p>
+                <p>
+                    Help The SPG and SPB on PRJ Expo.
+                </p>
+            </div>
+            <div class="col">
+                <h2>
+                    OSIS SMA Bellarminus
+                </h2>
+                <p>
+                    SMA Bellarminus Jakarta
+                </p>
+                <p>
+                    2016 - 2019
+                </p>
+                <p>
+                    Organization School who Created and Organize Activiy for Students.
+                </p>
+            </div>
+            
         </div>
 
-        <div class="row align-items-center justify-content-center top-top">
-            <div class="col">
-                <h2>
-                    IT DIV Training
-                </h2>
-                <p>
-                    Bina Nusantara University
-                </p>
-                <p>
-                    September 2020 - January 2021
-                </p>
-                <p>
-                    Learn about Web Development Includes HTML, CSS, Javascript, PHP, ASP.NET, C#, SQL, BM5 Frameworks and Android.
-                </p>
-            </div>
-            <div class="col">
-                <h2>
-                    Pre Training Assistant Laboratory
-                </h2>
-                <p>
-                    Bina Nusantara University
-                </p>
-                <p>
-                    2019 - 2020
-                </p>
-                <p>
-                    Learn About C/C++, Java, SQL and Data Structure.
-                </p>
-            </div>
-        </div>
+        
 
     </div>
 
-    <script>
+    <div class="container mid-text" id="Projects">
+        <h1 class="text-center"><a href="https://github.com/Muhariefliman" target="_blank">Projects</a></h1>
+        <div class="row align-items-center top-top img-carousel-emp" id="mobile-final" data-aos="fade-right">
+            <div class="col">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Home"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                          <div class="carousel-item active">
+                            <img src="assets/Project-mobile/Picture1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-mobile/Picture2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-mobile/Picture3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="container text-center top-top">
+                    <h2>
+                        IT Div Final Project Kepo AndroidApp
+                    </h2>
+                    <p>
+                        This is Final Project From IT Div Training. Making Android app named Kepo using Java and Android Studio with API From IT DIV.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col align-items-center text-center logo-click-here">
+                <a href="https://github.com/Muhariefliman/ITDiv-Final-Project-Kepo-AndroidApp" class="align-items-center text-center" target="_blank"><img src="assets/logo/log.svg" alt="" class=""></a>
+                <p>
+                    Click Here For More
+                </p>
+            </div>
+        </div>
+        
+        <div class="row align-items-center top-top img-carousel-emp" id="hci-final" data-aos="fade-left">
+            <div class="col align-items-center text-center logo-click-here">
+                <a href="https://github.com/Muhariefliman/Human-Computer-Interaction-Final-Project" target="_blank" class="align-items-center text-center"><img src="assets/logo/log.svg" alt="" class=""></a>
+                <p>
+                    Click Here For More
+                </p>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Home"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                          <div class="carousel-item active">
+                            <img src="assets/Project-hci/Picture4.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-hci/Picture5.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-hci/Picture6.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="container text-center top-top">
+                    <h2>
+                        Human Computer Interaction Final Project
+                    </h2>
+                    <p>
+                        This is Final Project From Human Computer Interaction Class. Making Responsive Website about Steak House using Html, Css, Javascript and Jquery.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-    </script>
+        <div class="row align-items-center top-top img-carousel-emp" id="ooad-final" data-aos="fade-right">
+            <div class="col">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Home"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                          <div class="carousel-item active">
+                            <img src="assets/Project-ooad/Picture7.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-ooad/Picture8.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-ooad/Picture9.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="container text-center top-top">
+                    <h2>
+                        Object Oriented Analysis Design Final Project
+                    </h2>
+                    <p>
+                        This is Final Project From Object Oriented Analysis Design Class. Making GUI For Cashier, Manager, HRD, and Product Management Systems.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col align-items-center text-center logo-click-here">
+                <a href="https://github.com/Muhariefliman/Object-Oriented-Analysis-Design-Final-Project" target="_blank" class="align-items-center text-center"><img src="assets/logo/log.svg" alt="" class=""></a>
+                <p>
+                    Click Here For More
+                </p>
+            </div>
+        </div>
+
+        <div class="row align-items-center top-top img-carousel-emp" id="hci-final" data-aos="fade-left">
+            <div class="col align-items-center text-center logo-click-here">
+                <a href="https://colab.research.google.com/drive/15PaHQnZWOrADTZ4QspYjqsVQKhwm1qiy?usp=sharing" target="_blank" class="align-items-center text-center"><img src="assets/logo/log.svg" alt="" class=""></a>
+                <p>
+                    Click Here For More
+                </p>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Home"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                          <div class="carousel-item active">
+                            <img src="assets/Project-Logistic-Regression/Picture10.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-Logistic-Regression/Picture11.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Project-Logistic-Regression/Picture12.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="container text-center top-top">
+                    <h2>
+                        Logistic Regression Project
+                    </h2>
+                    <p>
+                        This is Project From Machine Learning Class. Making Logistic Regression Model usign Sklean Linear Model and Do Prediction.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center top-top img-carousel-emp" id="ooad-final" data-aos="fade-right">
+            <div class="col">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Home"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                          <div class="carousel-item active">
+                            <img src="assets/Linear Regression/Picture13.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Linear Regression/Picture14.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Linear Regression/Picture15.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="container text-center top-top">
+                    <h2>
+                        Linear Regression Project
+                    </h2>
+                    <p>
+                        This is Project From Machine Learning Class. Making Linear Regression Model Using Car Dataset From Kaggle.
+                    </p>
+                </div>
+            </div>
+            <div class="col align-items-center text-center logo-click-here">
+                <a href="https://colab.research.google.com/drive/12JtZ-64JzLPDTFFqkgJFgVWyazkYjHdk?usp=sharing" target="_blank" class="align-items-center text-center"><img src="assets/logo/log.svg" alt="" class=""></a>
+                <p>
+                    Click Here For More
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mid-text" id="Contacts">
+        <h1 class="text-center">Contact</h1>
+        <div class="row align-items-center text-center width-text justify-content-center top-top">
+            <div class="col">
+                <a href="https://www.linkedin.com/in/muhariefliman/"><img src="assets/Logo-contact/linkedin.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="https://www.facebook.com/muhamadarief.liman.3/"><img src="assets/Logo-contact/facebook.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="https://github.com/Muhariefliman"><img src="assets/Logo-contact/github (1).png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="https://www.instagram.com/ariefliman/"><img src="assets/Logo-contact/instagram.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="mailto: muhamad.liman@binus.ac.id"><img src="assets/Logo-contact/email.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="https://wa.me/62817105879"><img src="assets/Logo-contact/telephone.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-top" id="footer">
+        <p class="text-center">&copy; Muhamad Arief Liman 2021</p>
+    </div>
+
+
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>
