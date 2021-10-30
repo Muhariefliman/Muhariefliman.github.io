@@ -20,8 +20,6 @@ body{
 
 .mid-text{
     margin-top: 75px;
-    padding: 25px;
-    border-radius: 25px;
 }
 
 .prof-pict{
@@ -116,11 +114,10 @@ body{
     transition: 0.2s;
 }
 
-#Contacts img{
+.logo-emp img{
     width: 50px;
     height: 50px;
 }
-
 @media only screen and (max-width: 426px) {
     .top-bottom{
         margin-top: 0px;
@@ -134,11 +131,44 @@ body{
 
     .typing-demo{
         width: 28.5ch;
-        font-size: x-large;
+        font-size: larger;
+    }
+
+    .text-paragraph{
+        font-size: medium;
+    }
+
+    .banner-custom{
+        display: none;
     }
 
     #mid-text p{
         font-size: small;        
     }
+
+    .img-carousel-emp img{
+        width: 250px;
+        height: 80px;
+    }
+
+    .logo-click-here img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-emp img{
+        width: 30px;
+        height: 30px;
+    }
     
+    #Projects p{
+        font-size: smaller;
+    }
+
+    #Projects h2{
+        font-size: x-large;
+        text-align: center;
+    }
+
+
   }
