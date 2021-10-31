@@ -12,8 +12,14 @@ body{
     background-color: #171717;
     color: white;
     font-family: 'Titillium Web';
-    box-sizing: border-box;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
 }
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
 .text-navbar ul li a{
     color: white;
 }
@@ -29,6 +35,11 @@ body{
     box-shadow: 1px 1px 1px grey;
 }
 
+.about_me_text{
+    text-align: left;
+    font-size: large;
+}
+
 .top-bottom{
     margin-top: 125px;
     margin-bottom: 125px;
@@ -42,21 +53,7 @@ body{
     color: black;
 }
 
-.text-paragraph{
-    font-size: x-large;
-    text-align: justify;
-}
 
-.typing-demo {
-    width: 28ch;
-    animation: typing 1s steps(30), blink .8s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-  }
-  
 .banner-custom{
     margin-top: 250px;
     width: 100%;
@@ -72,6 +69,10 @@ body{
     height: 45px;
 }
 
+.img-certificate{
+    width: 350px;
+    height: 230px;
+}
 
 #skills{
     margin-top: 50px;
@@ -81,17 +82,31 @@ body{
     margin-top: 75px;
 }
 
-  @keyframes typing {
+.certif-top{
+    margin-top: 75px;
+}
+
+.typing-demo {
+    width: 28ch;
+    animation: typing 3s steps(26), blink .8s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+
+@keyframes typing {
     from {
-      width: 0
+        width: 0
     }
-  }
-      
-  @keyframes blink {
+}
+
+@keyframes blink {
     50% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
+}
 
 .img-carousel-emp img{
     width: 450px;
@@ -119,11 +134,23 @@ body{
     height: 50px;
 }
 @media only screen and (max-width: 426px) {
+    body p{
+        font-size: medium;
+    }
+
+    .prof-pict{
+        width: 200px;
+        height: 200px;
+    }
+
     .top-bottom{
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
+    .certif-2{
+        margin-top: 20px;
+    }
     #mid-text{
         box-shadow: none;
         margin-top: 0px;
@@ -170,5 +197,8 @@ body{
         text-align: center;
     }
 
+    .certif-top{
+        margin-top: 20px;
+    }
 
   }
